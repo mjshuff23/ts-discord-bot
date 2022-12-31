@@ -9,7 +9,7 @@ export const Ping: Command = {
     interaction: CommandInteraction,
   ): Promise<void> => {
     const content = 'Pong!';
-
+    
     await interaction.deferReply();
     await interaction.followUp({
       // ephemeral makes message visible only to user who ran command

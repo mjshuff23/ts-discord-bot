@@ -13,7 +13,6 @@ export const User: Command = {
     const joinedAt = guildMember.joinedAt;
     const content = `Username: ${username}\nJoined At: ${joinedAt}`
 
-    
     await interaction.deferReply();
     await interaction.followUp({ 
       content,

@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  bot:
+    container_name: kanye_bot
+    image: kanye-bot
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    volumes:
+      - .:/src
