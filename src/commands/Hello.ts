@@ -6,7 +6,7 @@ export const Hello: Command = {
   description: 'Returns a standard greeting.',
   type: 1,
   run: async (
-    client: Client,
+    _: Client,
     interaction: CommandInteraction,
   ): Promise<void> => {
     const content = 'Hello, world!';

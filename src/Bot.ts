@@ -11,7 +11,6 @@ const warning = color.yellow;
 const notice = color.blue;
 const success = color.green_bt;
 
-
 const client = new Client({
   intents: [],
 });

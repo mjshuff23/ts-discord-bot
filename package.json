@@ -14,6 +14,7 @@
     "colors-cli": "^1.0.29",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
+    "eslint": "^8.31.0",
     "nodemon": "^2.0.20"
   },
   "devDependencies": {

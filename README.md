@@ -1,6 +1,7 @@
 # TypeScript Discord Bot
 
 - Welcome to the TS Discord Bot!  Here I will be explaining how everything runs.
+- [Tutorial](https://sabe.io/tutorials/how-to-build-discord-bot-typescript)
 
 ## Directory Structure
 
