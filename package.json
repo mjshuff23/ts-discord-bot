@@ -2,7 +2,7 @@
   "name": "discord-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/Bot.ts",
   "scripts": {
     "start": "ts-node src/Bot.ts",
     "start:dev": "nodemon --exec ts-node src/Bot.ts"
