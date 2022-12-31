@@ -18,6 +18,8 @@
   - `TOKEN`: the bot token.  You'll need to create your own bot and get the token from the [Discord Developer Portal](https://discord.com/developers/applications)
 - `tsconfig.json`: Configures the TypeScript compiler
 - `.eslintrc.json`: Configures ESLint
+- `Dockerfile`: This is the Dockerfile for the bot.  It is used to build the bot into a Docker image.
+- `docker-compose.yml`: This is the docker-compose file for the bot.  It is used to run the bot in a Docker container.
 - `node_modules`: self explanatory
 - `.gitignore`: self explanatory
 - `package.json`: self explanatory
