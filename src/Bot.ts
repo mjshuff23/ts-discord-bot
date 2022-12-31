@@ -12,9 +12,9 @@ const notice = color.blue;
 const success = color.green_bt;
 
 const client = new Client({
-  // The GatewayIntentBits.Guilds intents option is necessary for the discord.js client to work as you expect it to, as it ensures that the caches for guilds, channels, and roles are populated and available for internal use.
-  // The term "guild" is used by the Discord API and in discord.js to refer to a Discord server.
-  // Intents also define which events Discord should send to your bot, and you may wish to enable more than just the minimum.
+  // GatewayIntentBits.Guilds option ensures caches for guilds, channels, and roles are populated and available.
+  // Intents define which events Discord should send to your bot, you may wish to enable more than just the minimum.
+  // "Guild" refers to a Discord server.
   intents: [GatewayIntentBits.Guilds],
 });
 
