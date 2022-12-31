@@ -1,9 +1,13 @@
 import { Client } from 'discord.js';
+import { Commands } from '../Commands';
+import color from 'colors-cli';
 
 export default (client: Client): void => {
   client.on('ready', async () => {
     if (!client.user || !client.application) return;
 
-    console.log(`${client.user.username} is online!`);
+    await client.application.commands.set(Commands);
+
+    console.log(`${color.red(client.user.username)} is online!`);
   })
 }

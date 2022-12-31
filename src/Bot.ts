@@ -1,5 +1,5 @@
 import { Client, ClientOptions } from 'discord.js';
-import { ready } from './listeners';
+import { interactionCreate, ready } from './listeners';
 import * as dotenv from 'dotenv';
 import color from 'colors-cli';
 
@@ -15,6 +15,8 @@ const success = color.green_bt;
 const client = new Client({
   intents: [],
 });
-ready(client);
 
-console.log('Bot is ready!');
+ready(client);
+interactionCreate(client);
+
+client.login(process.env.TOKEN);
